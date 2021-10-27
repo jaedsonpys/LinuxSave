@@ -11,8 +11,7 @@ dados que forem selecionados.
     * [Alterar pastas do backup](#Alterar-pastas-do-backup)
     * [Alterar local para o backup](#Alterar-local-para-o-backup)
     * [Mudando os horários](#Mudando-os-horários)
-* [Tecnologias]()
-* [Problemas]()
+* [Atualizações](#Atualizações)
 * [Licença]()
 
 # Sobre
@@ -113,3 +112,30 @@ Para alterar os horários de backup, basta adicionar a hora na lista que está n
 >       BackupData(hours_backup, folders, local_save_backup)
 
 Quando o sistema encontrar algum desses horários, ele irá começar o backup automaticamente.
+
+# Atualizações
+
+## LinuxSave One
+
+![BADGE](https://img.shields.io/badge/status-finalizado-green)
+![BADGE](https://img.shields.io/badge/versão-1.0-blue)
+
+A primeira versão do LinuxSave!
+
+### Novidades
+
+* [x] Uso pelo terminal
+* [x] Backup automático
+
+## LinuxSave Protector
+
+![BADGE](https://img.shields.io/badge/status-em%20planejamento-orange)
+![BADGE](https://img.shields.io/badge/versão-2.0-blue)
+
+Segunda versão do LinuxSave, com novas features, correção de bugs e melhoria de desempenho!
+
+### Novidades
+
+* [x] Interface gráfica para configurações e feedback visual
+* [x] Suporte a mais mídias de backup
+* [x] Um backup pode ser feito a cada 30 minutos
