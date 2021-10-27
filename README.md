@@ -9,6 +9,7 @@ dados que forem selecionados.
     * [Como funciona](#Como-funciona)
 * [Como usar](#Como-usar)
     * [Alterar pastas do backup](#Alterar-pastas-do-backup)
+    * [Alterar local para o backup](#Alterar-local-para-o-backup)
 * [Tecnologias]()
 * [Problemas]()
 * [Licença]()
@@ -64,22 +65,38 @@ o último backup foi realizado.
 
 *Este foi apenas um exemplo de como o código funciona
 
-## Como usar
+# Como usar
 
 Aqui você aprenderá a configurar o LinuxSave.
 
-### Alterar pastas do backup
+## Alterar pastas do backup
 
 Neste pedaço de código você pode escolher quais pastas vão fazer parte do backup. Lembre-se que, o caminho raíz é
 **/home/usuario**, então se quiser fazer backup da pasta Documentos, basta fazer adicionar o nome dela na lista que está no final do arquivo **main.py**:
 
 >       ...
 >       folders = ['Documentos']
->       BackupData([13, 18, 22, 5], folders, '/media/jaedsonpys/Jaedson')
->       ...
+>       BackupData(hours_backup, folders, local_save_backup)
 
 Se quiser fazer o backup de uma pasta que está dentro de Documentos, adicione o caminho:
 
 >       folders = ['Documentos/FotosDaFamilia']
 
 *Ainda não é possível fazer backup de arquivos, apenas pastas.
+
+## Alterar local para o backup
+
+Este é o local onde o backup vai ser salvo, ou seja, para onde os arquivos vão, pode ser seu HDD, pendrive, ou outra pasta no próprio computador:
+
+>       ...
+>       # Aqui, escolhemos uma pasta do próprio computador
+>       # para salvar nossos backup:
+>
+>       local_save_backup = '/home/jaedsonpys/MeusBackups'
+>
+>       BackupData(hours_backup, folders, local_save_backup)
+
+Caso queria salvar seu backup em uma mídia removível, veja onde sua mídia está montada e adicione o local a váriavel **local_save_backup**, o local pode ser parecido com isso:
+
+>       ...
+>       local_save_backup = '/media/<nome_da_usuario>/<nome_da_midia>'
