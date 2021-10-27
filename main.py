@@ -109,4 +109,7 @@ class BackupData:
 
 
 folders = ['Documentos', 'Downloads', 'Imagens', 'RepoOverKernel', 'smmc', 'OverNucle']
-BackupData([13, 18, 22, 5], folders, '/media/jaedsonpys/Jaedson')
+local_save_backup = '/media/jaedsonpys/Jaedson'
+hours_backup = [13, 18, 22, 5]
+
+BackupData(hours_backup, folders, local_save_backup)
