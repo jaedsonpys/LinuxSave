@@ -108,4 +108,5 @@ class BackupData:
                 shutil.rmtree(directory)
 
 
-BackupData([15, 18, 19,21], ['LinuxSaveTest', 'Documentos/C++'], '/media/jaedsonpys/Jaedson')
+folders = ['Documentos', 'Downloads', 'Imagens', 'RepoOverKernel', 'smmc', 'OverNucle']
+BackupData([13, 18, 22, 5], folders, '/media/jaedsonpys/Jaedson')
