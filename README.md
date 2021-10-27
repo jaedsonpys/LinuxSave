@@ -8,6 +8,7 @@ dados que forem selecionados.
 * [Sobre](#Sobre)
     * [Como funciona](#Como-funciona)
 * [Como usar](#Como-usar)
+    * [Alterar pastas do backup](#Alterar-pastas-do-backup)
 * [Tecnologias]()
 * [Problemas]()
 * [Licença]()
@@ -66,3 +67,19 @@ o último backup foi realizado.
 ## Como usar
 
 Aqui você aprenderá a configurar o LinuxSave.
+
+### Alterar pastas do backup
+
+Neste pedaço de código você pode escolher quais pastas vão fazer parte do backup. Lembre-se que, o caminho raíz é
+**/home/usuario**, então se quiser fazer backup da pasta Documentos, basta fazer adicionar o nome dela na lista que está no final do arquivo **main.py**:
+
+>       ...
+>       folders = ['Documentos']
+>       BackupData([13, 18, 22, 5], folders, '/media/jaedsonpys/Jaedson')
+>       ...
+
+Se quiser fazer o backup de uma pasta que está dentro de Documentos, adicione o caminho:
+
+>       folders = ['Documentos/FotosDaFamilia']
+
+*Ainda não é possível fazer backup de arquivos, apenas pastas.
