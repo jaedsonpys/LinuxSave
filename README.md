@@ -12,7 +12,9 @@ dados que forem selecionados.
     * [Alterar local para o backup](#Alterar-local-para-o-backup)
     * [Mudando os horários](#Mudando-os-horários)
 * [Atualizações](#Atualizações)
-* [Licença]()
+    * [LinuxSave One](#LinuxSave-One)
+    * [LinuxSave Protector](#LinuxSave-Protector)
+* [Licença](#Licença)
 
 # Sobre
 
@@ -139,3 +141,10 @@ Segunda versão do LinuxSave, com novas features, correção de bugs e melhoria 
 * [x] Interface gráfica para configurações e feedback visual
 * [x] Suporte a mais mídias de backup
 * [x] Um backup pode ser feito a cada 30 minutos
+
+# Licença
+
+Este projeto utiliza a licença MIT.
+Copyright (c) 2021 Jaedson Francisco da Silva
+
+> Leia o arquivo LICENSE para melhor compreensão
