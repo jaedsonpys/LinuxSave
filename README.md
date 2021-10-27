@@ -8,7 +8,6 @@ dados que forem selecionados.
 * [Sobre](#Sobre)
     * [Como funciona](#Como-funciona)
 * [Como usar](#Como-usar)
-    * [Definindo a inicialização automática](#Definindo-a-inicialização-automática)
 * [Tecnologias]()
 * [Problemas]()
 * [Licença]()
@@ -67,14 +66,3 @@ o último backup foi realizado.
 ## Como usar
 
 Aqui você aprenderá a configurar o LinuxSave.
-
-## Definindo a inicialização automática
-
-Essas instruções foram testadas apenas no **Ubuntu 20.4** utilizando a interface gráfica
-Gnome, para outras distribuições, pesquise sobre como definir **aplicativos de inicialização**
-
-Veja como fazer isso no Ubuntu:
-
-1. Procure pelo programa ***Aplicativos iniciais de sessão*** e abra-o;
-2. Clique no botão ***Adicionar***;
-3. Preencha algumas informações, o nome pode ser LinuxSave e uma descrição opcional, como
