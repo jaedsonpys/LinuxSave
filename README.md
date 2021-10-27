@@ -10,6 +10,7 @@ dados que forem selecionados.
 * [Como usar](#Como-usar)
     * [Alterar pastas do backup](#Alterar-pastas-do-backup)
     * [Alterar local para o backup](#Alterar-local-para-o-backup)
+    * [Mudando os horários](#Mudando-os-horários)
 * [Tecnologias]()
 * [Problemas]()
 * [Licença]()
@@ -100,3 +101,15 @@ Caso queria salvar seu backup em uma mídia removível, veja onde sua mídia est
 
 >       ...
 >       local_save_backup = '/media/<nome_da_usuario>/<nome_da_midia>'
+
+## Mudando os horários
+
+Para alterar os horários de backup, basta adicionar a hora na lista que está no final do código em **main.py**, veja um exemplo:
+
+>       ...
+>       # Aqui você define os horários, no minimo o intervalo é de uma hora.
+>       hours_backup = [13, 14, 15, 23]
+>
+>       BackupData(hours_backup, folders, local_save_backup)
+
+Quando o sistema encontrar algum desses horários, ele irá começar o backup automaticamente.
