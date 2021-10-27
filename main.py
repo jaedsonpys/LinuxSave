@@ -53,7 +53,7 @@ class BackupData:
                         self.__start_backup()
                         self.__last_backup = hour
             
-            sleep(60)
+            sleep(120)
             
 
     def __start_backup(self) -> bool:

@@ -6,6 +6,6 @@ gnome-terminal -x bash -c "python3 main.py"
 
 
 # Se quiser que o programa rode sem o terminal, adicione um "#" na linha 
-# anterior e retire o "#" da linha abaixo:
+# anterior e retire 0 "#" da linha abaixo:
 
 # python3 main.py
