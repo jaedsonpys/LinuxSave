@@ -1,5 +1,12 @@
 # Um print personalizado acompanhado de uma
 # mensagem.
+#
+# MIT License
+# Copyright (c) 2021 Jaedson Francisco da Silva 
+# 
+# @autor: Jaedson Silva
+# @github: github.com/jaedsonpys 
+# 
 
 from datetime import datetime
 

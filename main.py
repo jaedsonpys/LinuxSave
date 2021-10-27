@@ -4,6 +4,17 @@ from datetime import datetime
 from time import sleep
 from utils.print_log import print_log
 
+#
+# Leia o README para entender algumas partes do código.
+#
+# MIT License
+# Copyright (c) 2021 Jaedson Francisco da Silva 
+# 
+# @autor: Jaedson Silva
+# @github: github.com/jaedsonpys 
+# 
+
+
 class BackupData:
     def __init__(self, schedule_backup: list, folders_to_backup: list, local_save_backup: str) -> None:
         '''
@@ -97,4 +108,4 @@ class BackupData:
                 shutil.rmtree(directory)
 
 
-user = BackupData([15, 18, 19,21], ['LinuxSaveTest', 'Documentos/C++'], '/media/jaedsonpys/Jaedson')
+BackupData([15, 18, 19,21], ['LinuxSaveTest', 'Documentos/C++'], '/media/jaedsonpys/Jaedson')
